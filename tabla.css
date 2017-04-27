@@ -7,13 +7,29 @@ background-repeat: no-repeat;
 
 }
 #infoH{display:none;
-font-family: "", Times, serif;
+font-family: "Arial",Times,serif;
+font-weight:bold;
 position: absolute;
 height:500px;
-width:900px;
+width:850px;
 top: 95px;
-left: 215px;
+left: 225px;
+text-align:justify;
 }
+#infoLi{display:none;
+font-family: "Arial",Times,serif;
+font-weight:bold;
+position: absolute;
+height:500px;
+width:850px;
+top: 95px;
+left: 225px;
+text-align:justify;
+}
+img{height:250px;
+width:350px;
+}
+h1{text-align:center;}
 
 /*grupoA1*/
 #H{position: absolute;

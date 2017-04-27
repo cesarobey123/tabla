@@ -17,19 +17,24 @@
 	 $("#Li").click(function(){
         $("#info").show(500);
 		$("#infobutton").show(750);
+		$("#infoLi").show(800);
 	});	
 	$("#infobutton").click(function(){
 	 $("#info").hide(500);
 	 $("#infobutton").hide();
+	 $("#infoLi").hide();
 	});	
 	$("#Na").click(function(){
         $("#info").show(500);
 		$("#infobutton").show(750);
+		$("#infoNa").show(800);
 	});	
 	$("#infobutton").click(function(){
 	 $("#info").hide(500);
 	 $("#infobutton").hide();
-	});	$("#K").click(function(){
+	 $("#infoNa").hide();
+	});	
+	$("#K").click(function(){
         $("#info").show(500);
 		$("#infobutton").show(750);
 	});	
@@ -968,13 +973,15 @@
 	<!--grupoA1-->
 	<div id="H"></div>
 	<div id="info"></div>
-	<div id="infoH"><h1>Hidrogeno</h1></div>
+	<div id="infoH"><h1>Hidrogeno</h1><p>El hidrogeno es el elemento químico de número atómico 1, representado por el símbolo H. Con una masa atómica de 1,00794 unidades de masa atómica, es el más ligero de la tabla de los elementos. Por lo general, se presenta en su forma molecular, formando el gas diatómico H2 en condiciones normales. Este gas es inflamable, incoloro, inodoro, no metálico e insoluble en agua.</p><img src="hidrogeno.jpg"></div>
 	<div ><button id="infobutton">X</button></div>
 	<div id="Li"></div>
 	<div id="info"></div>
+	<div id="infoLi"><h1>Litio</h1><p>El litio es un elemento químico de símbolo Li y número atómico 3. En la tabla periódica, se encuentra en el grupo 1, entre los elementos alcalinos. En su forma pura, es un metal blando, de color blanco plata, que se oxida rápidamente en aire o agua. Su densidad es la mitad de la del agua, siendo el metal y elemento sólido más ligero.</p><img src="litio.jpg"></div>
 	<div ><button id="infobutton">X</button></div>
 	<div id="Na"></div>
 	<div id="info"></div>
+	<div id="infoLi"><h1>Sodio</h1><p></p><img src="sodio.jpg"></div>
 	<div ><button id="infobutton">X</button></div>
 	<div id="K"></div>
 	<div id="info"></div>
