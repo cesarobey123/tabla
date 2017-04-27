@@ -3,31 +3,184 @@
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script> 
-				
+		$(document).ready(function(){
+    $("#H").click(function(){
+        $("#info").show(500);
+		$("#infobutton").show(750);
+	});	
+	$("#infobutton").click(function(){
+	 $("#info").hide(500);
+	 $("#infobutton").hide();
+	});	
+	 $("#Li").click(function(){
+        $("#info").show(500);
+		$("#infobutton").show(750);
+	});	
+	$("#infobutton").click(function(){
+	 $("#info").hide(500);
+	 $("#infobutton").hide();
+	});	
+});	
 </script> 
 <link rel="stylesheet" type="text/css" href="tabla.css">
 	</head>
 	<body>
-	<div id="wrapper">
 	<div id="nav">
 	<input type="checkbox" id="sidemenucheckbox" />
-<label id="sidemenutoggler" for="sidemenucheckbox" onClick="legacybrowsertoggle()">Toggle Menu</label>
-
+<label id="sidemenutoggler" for="sidemenucheckbox" onClick="legacybrowsertoggle()"></label>
 <nav id="leftsidemenu">
-
-	<ul>
-	<li><a href="http://www.dynamicdrive.com">Home</a></li>
-	<li><a href="http://www.dynamicdrive.com/new.htm">DHTML</a></li>
-	<li><a href="http://www.dynamicdrive.com/style/">CSS Library</a></li>
-	<li><a href="http://www.cssdrive.com">CSS Gallery</a></li>
-	<li><a href="http://www.javascriptkit.com">JavaScript</a></li>
-	</ul>
-<label id="closex" for="sidemenucheckbox" onClick="legacybrowsertoggle()"></label>
-</nav>
-	
-<div class="overlay"><label for="sidemenucheckbox"></label></div>
-</div>
+		<ul>
+			<li><a href="Inicio.html">Inicio</a></li>
+			<li><a href="Tabla Periodica.html">Tabla Periodica</a></li>
+			<li><a href="Los Elementos En La Vida Diaria.html">Los Elementos En La Vida Diaria</a></li>
+			<li><a href="Educacion.html">Educacion</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+		</ul>
+	<label id="closex" for="sidemenucheckbox" onClick="legacybrowsertoggle()"></label>
+</nav>	
+	<div class="overlay"><label for="sidemenucheckbox"></label></div>
 	</div>
-	</body>
+	<!--grupoA1-->
+	<div id="H"></div>
+	<div id="info"></div>
+	<div ><button id="infobutton">X</button></div>
+	<div id="Li"></div>
+	<div id="info"></div>
+	<div ><button id="infobutton">X</button></div>
+	<div id="Na"></div>
+	<div id="K"></div>
+	<div id="Rb"></div>
+	<div id="Cs"></div>
+	<div id="Fr"></div>
+	<!--grupoA2-->
+	<div id="Be"></div>
+	<div id="Mg"></div>
+	<div id="Ca"></div>
+	<div id="Sr"></div>
+	<div id="Ba"></div>
+	<div id="Ra"></div>
+	<!--grupoB1-->
+	<div id="Sc"></div>
+	<div id="Y"></div>
+	<!--grupoB2-->
+	<div id="Ti"></div>
+	<div id="Zr"></div>
+	<div id="Hf"></div>
+	<div id="Rf"></div>
+	<!--grupoB3-->
+	<div id="V"></div>
+	<div id="Nb"></div>
+	<div id="Ta"></div>
+	<div id="Db"></div>
+	<!--grupoB4-->
+	<div id="Cr"></div>
+	<div id="Mo"></div>
+	<div id="W"></div>
+	<div id="Sg"></div>
+	<!--grupoB5-->
+	<div id="Mn"></div>
+	<div id="Tc"></div>
+	<div id="Re"></div>
+	<div id="Bh"></div>
+	<!--grupoB6-->
+	<div id="Fe"></div>
+	<div id="Ru"></div>
+	<div id="Os"></div>
+	<div id="Hs"></div>
+	<!--grupoB7-->
+	<div id="Co"></div>
+	<div id="Rh"></div>
+	<div id="Ir"></div>
+	<div id="Mt"></div>
+	<!--grupoB8-->
+	<div id="Ni"></div>
+	<div id="Pd"></div>
+	<div id="Pt"></div>
+	<div id="Ds"></div>
+	<!--grupoB9-->
+	<div id="Cu"></div>
+	<div id="Ag"></div>
+	<div id="Au"></div>
+	<div id="Rg"></div>
+	<!--grupoB10-->
+	<div id="Zn"></div>
+	<div id="Cd"></div>
+	<div id="Hg"></div>
+	<div id="Cn"></div>
+	<!--grupoA3-->
+	<div id="B"></div>
+	<div id="Al"></div>
+	<div id="Ga"></div>
+	<div id="In"></div>
+	<div id="Tl"></div>
+	<div id="Uut"></div>
+	<!--grupoA4-->
+	<div id="C"></div>
+	<div id="Si"></div>
+	<div id="Ge"></div>
+	<div id="Sn"></div>
+	<div id="Pb"></div>
+	<div id="Fl"></div>
+	<!--grupoA5-->
+	<div id="N"></div>
+	<div id="P"></div>
+	<div id="As"></div>
+	<div id="Sb"></div>
+	<div id="Bi"></div>
+	<div id="Uup"></div>
+	<!--grupoA6-->
+	<div id="O"></div>
+	<div id="S"></div>
+	<div id="Se"></div>
+	<div id="Te"></div>
+	<div id="Po"></div>
+	<div id="Lv"></div>
+	<!--grupoA7-->
+	<div id="F"></div>
+	<div id="Cl"></div>
+	<div id="Br"></div>
+	<div id="I"></div>
+	<div id="At"></div>
+	<div id="Uus"></div>
+	<!--grupoA8-->
+	<div id="He"></div>
+	<div id="Ne"></div>
+	<div id="Ar"></div>
+	<div id="Kr"></div>
+	<div id="Xe"></div>
+	<div id="Rn"></div>
+	<div id="Uuo"></div>
+	<!--grupoB,aparte-->
+	<div id="La"></div>
+	<div id="Ac"></div>
+	<div id="Ce"></div>
+	<div id="Th"></div>
+	<div id="Pr"></div>
+	<div id="Pa"></div>
+	<div id="Nd"></div>
+	<div id="U"></div>
+	<div id="Pm"></div>
+	<div id="Np"></div>
+	<div id="Sm"></div>
+	<div id="Pu"></div>
+	<div id="Eu"></div>
+	<div id="Am"></div>
+	<div id="Gd"></div>
+	<div id="Cm"></div>
+	<div id="Tb"></div>
+	<div id="Bk"></div>
+	<div id="Dy"></div>
+	<div id="Cf"></div>
+	<div id="Ho"></div>
+	<div id="Es"></div>
+	<div id="Er"></div>
+	<div id="Fm"></div>
+	<div id="Tm"></div>
+	<div id="Md"></div>
+	<div id="Yb"></div>
+	<div id="No"></div>
+	<div id="Lu"></div>
+	<div id="Lr"></div>
 	
+	</body>
 </html>

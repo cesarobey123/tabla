@@ -1,12 +1,1006 @@
-body{font-family: "Impact", Times, serif;
-text-align: right;
-color:white;
+body{
 background-image: url("tabla.png");
 background-size: 1370px 650px;
 background-repeat: no-repeat;
 }
 #wrapper{
 
+}
+#infoH{display:none;
+font-family: "", Times, serif;
+position: absolute;
+height:500px;
+width:900px;
+top: 95px;
+left: 215px;
+}
+
+/*grupoA1*/
+#H{position: absolute;
+height:53px;
+width:55px;
+border:2px ;
+top: 93px;
+left: 90px;
+}
+
+#Li{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 90px;
+}
+
+#Na{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 90px;
+}
+
+#K{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 90px;
+}
+
+#Rb{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 90px;
+}
+
+#Cs{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 90px;
+}
+
+#Fr{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 90px;
+}
+
+/*grupoA2*/
+#Be{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 159px;
+}
+
+#Mg{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 159px;
+}
+
+#Ca{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 159px;
+}
+
+#Sr{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 159px;
+}
+
+#Ba{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 159px;
+}
+
+#Ra{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 159px;
+}
+
+/*grupoB1*/
+#Sc{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 228px;
+}
+
+#Y{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 228px;
+}
+/*grupoB2*/
+#Ti{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 296px;
+}
+
+#Zr{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 296px;
+}
+
+#Hf{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 378px;
+left: 296px;
+}
+
+#Rf{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 296px;
+}
+
+/*grupoB3*/
+
+#V{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 265px;
+left: 365px;
+}
+
+#Nb{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 365px;
+}
+
+#Ta{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 378px;
+left: 365px;
+}
+
+#Db{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 365px;
+}
+
+/*grupoB4*/
+
+#Cr{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 265px;
+left: 433px;
+}
+
+#Mo{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 321px;
+left: 433px;
+}
+
+#W{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 433px;
+}
+
+#Sg{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 433px;
+}
+
+/*grupoB5*/
+
+#Mn{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 265px;
+left: 502px;
+}
+
+#Tc{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 502px;
+}
+
+#Re{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 502px;
+}
+
+#Bh{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 502px;
+}
+
+/*grupoB6*/
+
+#Fe{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 570px;
+}
+
+#Ru{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 570px;
+}
+
+#Os{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 378px;
+left: 570px;
+}
+
+#Hs{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 570px;
+}
+
+/*grupoB7*/
+
+#Co{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 639px;
+}
+
+#Rh{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 639px;
+}
+
+#Ir{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 639px;
+}
+
+#Mt{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 639px;
+}
+
+/*grupoB8*/
+
+#Ni{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 708px;
+}
+
+#Pd{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 708px;
+}
+
+#Pt{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 378px;
+left: 708px;
+}
+
+#Ds{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 708px;
+}
+
+/*grupoB9*/
+
+#Cu{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 776px;
+}
+
+#Ag{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 776px;
+}
+
+#Au{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 378px;
+left: 776px;
+}
+
+#Rg{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 776px;
+}
+
+/*grupoB10*/
+
+#Zn{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 845px;
+}
+
+#Cd{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 845px;
+}
+
+#Hg{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 845px;
+}
+
+#Cn{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 845px;
+}
+
+/*grupoA3*/
+#B{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 914px;
+}
+
+#Al{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 914px;
+}
+
+#Ga{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 914px;
+}
+
+#In{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 914px;
+}
+
+#Tl{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 914px;
+}
+
+#Uut{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 914px;
+}
+
+/*grupoA4*/
+#C{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 983px;
+}
+
+#Si{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 983px;
+}
+
+#Ge{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 983px;
+}
+
+#Sn{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 983px;
+}
+
+#Pb{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 983px;
+}
+
+#Fl{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 983px;
+}
+/*grupoA5*/
+#N{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 1048px;
+}
+
+#P{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 1048px;
+}
+
+#As{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 1048px;
+}
+
+#Sb{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 1048px;
+}
+
+#Bi{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 1048px;
+}
+
+#Uup{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 1048px;
+}
+
+/*grupoA6*/
+#O{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 1118px;
+}
+
+#S{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 208px;
+left: 1118px;
+}
+
+#Se{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 1118px;
+}
+
+#Te{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 321px;
+left: 1118px;
+}
+
+#Po{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 1118px;
+}
+
+#Lv{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 1118px;
+}
+
+/*grupoA7*/
+#F{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 1186px;
+}
+
+#Cl{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 1186px;
+}
+
+#Br{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 265px;
+left: 1186px;
+}
+
+#I{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 321px;
+left: 1186px;
+}
+
+#At{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 1186px;
+}
+
+#Uus{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 1186px;
+}
+
+/*grupoA8*/
+#He{position: absolute;
+height:53px;
+width:55px;
+border:2px;
+top: 93px;
+left: 1255px;
+}
+
+#Ne{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 152px;
+left: 1255px;
+}
+
+#Ar{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 208px;
+left: 1255px;
+}
+
+#Kr{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 265px;
+left: 1255px;
+}
+
+#Xe{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 321px;
+left: 1255px;
+}
+
+#Rn{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 378px;
+left: 1255px;
+}
+
+#Uuo{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 434px;
+left: 1255px;
+}
+
+/*grupoB,aparte*/
+#La{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 296px;
+}
+
+#Ac{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 296px;
+}
+
+#Ce{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 364px;
+}
+
+#Th{position: absolute;
+height:50px;
+width:55px;
+border:2px
+top: 579px;
+left: 364px;
+}
+
+#Pr{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 433px;
+}
+
+#Pa{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 433px;
+}
+
+#Nd{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 501px;
+}
+
+#U{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top:579px;
+left: 501px;
+}
+
+#Pm{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 570px;
+}
+
+#Np{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 570px;
+}
+
+#Sm{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 638px;
+}
+
+#Pu{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 638px;
+}
+
+#Eu{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left:707px;
+}
+
+#Am{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 707px;
+}
+
+#Gd{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 776px;
+}
+
+#Cm{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 776px;
+}
+
+#Tb{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 844px;
+}
+
+#Bk{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 844px;
+}
+
+#Dy{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 913px;
+}
+
+#Cf{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 913px;
+}
+
+#Ho{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 522px;
+left: 981px;
+}
+
+#Es{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 579px;
+left: 981px;
+}
+
+#Er{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 522px;
+left: 1050px;
+}
+
+#Fm{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 1050px;
+}
+
+#Tm{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 1118px;
+}
+
+#Md{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 1118px;
+}
+
+#Yb{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 522px;
+left: 1187px;
+}
+
+#No{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 1187px;
+}
+
+#Lu{position: absolute;
+height:50px;
+width:55px;
+border:2px;
+top: 522px;
+left: 1255px;
+}
+
+#Lr{position: absolute;
+height:50px;
+width:55px;
+border:2px ;
+top: 579px;
+left: 1255px;
+}
+
+/*info*/
+#info{display:none;
+position: absolute;
+height:500px;
+width:900px;
+border:4px solid black;
+top: 100px;
+left: 200px;
+background-color: white;}
+#infobutton{display:none;
+position: absolute;
+top: 104px;
+left: 1080px;
+background-color:transparent;
+border-color:transparent;
+font-weight:bold;
+font-family:Comic Sans MS, Times,serif;
 }
 <link href="http://fonts.googleapis.com/css?family=Bitter&subset=latin" rel="stylesheet" type="text/css">
   
@@ -29,8 +1023,8 @@ label#sidemenutoggler {   /* Main label icon to toggle menu state */
   width: 3.5em;
   height: 2em;
   top: 0;
-  left: 0;
-  background: white;
+  left: 10px;
+  background: #EAE3E3;
   text-indent: -1000px;
   border: 0.6em solid black; /* border color */
   border-width: 0.6em 0;
@@ -85,7 +1079,7 @@ label#sidemenutoggler::after {
 	left: 0;
 	width: 250px; /* width of menu */
 	height: 100%;
-	background: #AFA2A2; /* background of menu */
+	background: #D8CECE; /* background of menu */
   font: bold 1em 'Bitter', sans-serif; /* Use google custom fonts for this menu */
   z-index: 1001;
   -webkit-box-sizing: border-box;
@@ -124,7 +1118,7 @@ label#sidemenutoggler::after {
 }
 
 #leftsidemenu ul li a:hover{
-  background: #A3D363;
+  background: #868080;
   transition: all 0.5s;
   
 }
@@ -245,3 +1239,5 @@ function legacybrowsertoggle(){
 	</style>
 
 <![endif]-->
+
+
